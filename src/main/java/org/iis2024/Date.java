@@ -62,7 +62,11 @@ public class Date {
    * @param anyo The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-
+  public Date(int dia, int mes, int anyo) {
+    this.day = dia;
+    this.month = mes;
+    this.year = anyo;
+  }
 
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
