@@ -22,12 +22,11 @@ public class Date {
   private final int year;
 
 
-<<<<<<< HEAD
-=======
+
   public void methodAddedByOwner(){
     System.out.println("Method added by the owner");
   }
->>>>>>> 5c1c3ee303f5932c10faa60823180dcb759d4a6b
+
   /**
    * Retrieves the day component of this date.
    *
@@ -63,10 +62,11 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
+  // Constructor modified by the collaborator
+  public Date(int tag, int monat, int jahr) {
+    this.day = tag;
+    this.month = monat;
+    this.year = jahr;
   }
 
   /**
