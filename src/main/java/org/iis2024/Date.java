@@ -22,6 +22,12 @@ public class Date {
   private final int year;
 
 
+<<<<<<< HEAD
+=======
+  public void methodAddedByOwner(){
+    System.out.println("Method added by the owner");
+  }
+>>>>>>> 5c1c3ee303f5932c10faa60823180dcb759d4a6b
   /**
    * Retrieves the day component of this date.
    *
